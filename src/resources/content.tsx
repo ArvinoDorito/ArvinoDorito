@@ -12,12 +12,6 @@ const person: Person = {
   languages: ["English"], // optional: Leave the array empty if you don't want to display languages
 };
 
-const newsletter: Newsletter = {
-  display: true,
-  title: <>Subscribe to {person.firstName}'s Newsletter</>,
-  description: <>My weekly newsletter about creativity and engineering</>,
-};
-
 const social: Social = [
   // Links are automatically displayed.
   // Import new icons in /once-ui/icons.ts
@@ -58,7 +52,7 @@ const home: Home = {
   },
   subline: (
     <>
-    I'm a Roblox<Text as="span" size="xl" weight="strong">UGC and Modeller</Text>.
+    I'm a Roblox <Text as="span" size="xl" weight="strong">UGC and Modeller</Text>.
 </>
   ),
 };
