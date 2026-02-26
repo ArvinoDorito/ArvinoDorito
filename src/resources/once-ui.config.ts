@@ -71,7 +71,7 @@ const fonts: FontsConfig = {
 // 🔴⬛ RED → BLACK THEME
 const style: StyleConfig = {
   theme: "dark",
-  neutral: "slate",
+  neutral: "grey",
   brand: "red",
   accent: "magenta",
   solid: "contrast",
