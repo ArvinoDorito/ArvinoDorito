@@ -1,7 +1,15 @@
 "use client";
 
 import { mailchimp } from "@/resources";
-import { Button, Heading, Input, Text, Background, Column, Row } from "@once-ui-system/core";
+import {
+  Button,
+  Heading,
+  Input,
+  Text,
+  Background,
+  Column,
+  Row,
+} from "@once-ui-system/core";
 import { opacity, SpacingToken } from "@once-ui-system/core";
 import { useState } from "react";
 
@@ -13,7 +21,9 @@ function debounce<T extends (...args: any[]) => void>(func: T, delay: number): T
   }) as T;
 }
 
-export const Mailchimp: React.FC<React.ComponentProps<typeof Column>> = ({ ...flex }) => {
+export const Mailchimp: React.FC<React.ComponentProps<typeof Column>> = ({
+  ...flex
+}) => {
   const [email, setEmail] = useState<string>("");
   const [error, setError] = useState<string>("");
   const [touched, setTouched] = useState<boolean>(false);
@@ -38,7 +48,7 @@ export const Mailchimp: React.FC<React.ComponentProps<typeof Column>> = ({ ...fl
     }
   };
 
-  const debouncedHandleChange = debounce(handleChange, 2000);
+  const debouncedHandleChange = debounce(handleChange, 500);
 
   const handleBlur = () => {
     setTouched(true);
@@ -47,7 +57,41 @@ export const Mailchimp: React.FC<React.ComponentProps<typeof Column>> = ({ ...fl
     }
   };
 
+  return (
+    <Column {...flex} gap="16" fillWidth>
+      <Heading as="h3" variant="heading-strong-m">
+        Subscribe to updates
+      </Heading>
+
+      <form
+        action={mailchimp.action}
+        method="post"
+        target="_blank"
+        noValidate
+      >
+        <Row gap="8">
+          <Input
+            id="mce-EMAIL"
+            name="EMAIL"
+            type="email"
+            value={email}
+            onChange={debouncedHandleChange}
+            onBlur={handleBlur}
+            hasError={touched && !!error}
+            placeholder="Enter your email"
+            required
+          />
+
+          <Button type="submit" disabled={!!error}>
+            Subscribe
+          </Button>
         </Row>
+
+        {touched && error && (
+          <Text onBackground="danger-strong" variant="label-default-s">
+            {error}
+          </Text>
+        )}
       </form>
     </Column>
   );
