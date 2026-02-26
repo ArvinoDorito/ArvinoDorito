@@ -1,0 +1,43 @@
+---
+title: "BTD Designs - The Knight's Wardrobe"
+publishedAt: "2026-02-26"
+summary: "Development of a flexible and highly customizable design system using Next.js for front-end and Figma for design collaboration."
+images:
+  - "/images/projects/project-01/cover-01.jpg"
+  - "/images/projects/project-01/cover-02.jpg"
+  - "/images/projects/project-01/cover-03.jpg"
+  - "/images/projects/project-01/cover-04.jpg"
+team:
+  - name: "ArvinoDorito"
+    role: "Modeller"
+    avatar: "/images/avatar.jpg"
+    linkedIn: "https:discord.gg/btl"
+  - name: "killerwolfboy0 (Tony)"
+    role: "Game Creator"
+    avatar: "/images/projects/project-01/avatar-01.png"
+    linkedIn: "https:discord.gg/btl"
+  - name: "Mr_Barcode"
+    role: "UGC Uploader / Mentor"
+    avatar: "/images/projects/project-01/avatar-02.gif"
+    linkedIn: "https:discord.gg/btl"
+---
+
+## Overview
+
+Modelled, UV mapped and Textured a large variety off different UGC items.
+
+## Products
+### Hats:
+- **Fedora Hat**
+- **Top Hat**
+- **Bowler Hat**
+### Lapel Pins:
+- **Gold Playing Cards Pin**
+- **Black Playing Cards Pin**
+- **Rose Pin**
+### Glasses:
+- **Gold Normal Aviator Style Glasses**
+
+## Challenges and Learnings
+
+I had issues with UV mapping, which I have successfully learnt and I am using in all my work!
