@@ -18,8 +18,8 @@ import { baseURL, effects, fonts, style, dataStyle, home } from "@/resources";
 
 export async function generateMetadata() {
   return Meta.generate({
-    title: home.title,
-    description: home.description,
+    title: "ArvinoDorito",
+    description: "Roblox UGC and Modeller",
     baseURL: baseURL,
     path: home.path,
     image: home.image,
@@ -54,7 +54,6 @@ export default async function RootLayout({
                   const root = document.documentElement;
                   const defaultTheme = 'system';
                   
-                  // Set defaults from config
                   const config = ${JSON.stringify({
                     brand: style.brand,
                     accent: style.accent,
@@ -68,12 +67,10 @@ export default async function RootLayout({
                     "viz-style": dataStyle.variant,
                   })};
                   
-                  // Apply default values
                   Object.entries(config).forEach(([key, value]) => {
                     root.setAttribute('data-' + key, value);
                   });
                   
-                  // Resolve theme
                   const resolveTheme = (themeValue) => {
                     if (!themeValue || themeValue === 'system') {
                       return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
@@ -81,12 +78,10 @@ export default async function RootLayout({
                     return themeValue;
                   };
                   
-                  // Apply saved theme
                   const savedTheme = localStorage.getItem('data-theme');
                   const resolvedTheme = resolveTheme(savedTheme);
                   root.setAttribute('data-theme', resolvedTheme);
                   
-                  // Apply any saved style overrides
                   const styleKeys = Object.keys(config);
                   styleKeys.forEach(key => {
                     const value = localStorage.getItem('data-' + key);
