@@ -27,11 +27,18 @@ import {
   SiNextdotjs,
   SiFigma,
   SiSupabase,
+  SiAdobe,
 } from "react-icons/si";
+
+import {
+  BiLogoBlender
+} from "react-icons/bi";
 
 import { FaDiscord, FaGithub, FaLinkedin, FaX, FaThreads, FaInstagram, FaXTwitter, FaFacebook, FaPinterest, FaWhatsapp, FaReddit, FaTelegram, } from "react-icons/fa6";
 
 export const iconLibrary: Record<string, IconType> = {
+  blender: BiLogoBlender,
+  adobe: SiAdobe,
   arrowUpRight: HiArrowUpRight,
   arrowRight: HiArrowRight,
   email: HiEnvelope,
