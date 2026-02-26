@@ -23,6 +23,12 @@ const social: Social = [
     essential: true,
   },
   {
+    name: "Discord",
+    icon: "discord",
+    link: "https://discord.com/users/1102466688886255658",
+    essential: true,
+  },
+  {
     name: "Email",
     icon: "email",
     link: `mailto:${person.email}`,
@@ -133,7 +139,7 @@ const about: About = {
         tags: [
           {
             name: "Blender",
-            icon: "figma",
+            icon: "blender",
           },
         ],
         // optional: leave the array empty if you don't want to display images
@@ -159,16 +165,8 @@ const about: About = {
         ),
         tags: [
           {
-            name: "JavaScript",
-            icon: "javascript",
-          },
-          {
-            name: "Next.js",
-            icon: "nextjs",
-          },
-          {
-            name: "Supabase",
-            icon: "supabase",
+            name: "Adobe",
+            icon: "adobe",
           },
         ],
         // optional: leave the array empty if you don't want to display images
