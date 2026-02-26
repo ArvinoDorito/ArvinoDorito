@@ -25,25 +25,7 @@ const social: Social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system",
-    essential: true,
-  },
-  {
-    name: "LinkedIn",
-    icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
-    essential: true,
-  },
-  {
-    name: "Instagram",
-    icon: "instagram",
-    link: "https://www.instagram.com/once_ui/",
-    essential: false,
-  },
-  {
-    name: "Threads",
-    icon: "threads",
-    link: "https://www.threads.com/@once_ui",
+    link: "https://github.com/ArvinoDorito",
     essential: true,
   },
   {
@@ -111,17 +93,15 @@ const about: About = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "BTD",
+        timeframe: "Dec 2025 - Present",
+        role: "UGC Merchant",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Creating a Variety of Formal UGCs for The Knight's Wardrobe.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            ADD IMAGES
           </>,
         ],
         images: [
@@ -134,35 +114,15 @@ const about: About = {
           },
         ],
       },
-      {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
-        achievements: [
-          <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
-          </>,
-          <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
-          </>,
-        ],
-        images: [],
-      },
     ],
   },
   studies: {
-    display: true, // set to false to hide this section
+    display: false, // set to false to hide this section
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
-      },
-      {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "",
+        description: <></>,
       },
     ],
   },
@@ -171,13 +131,14 @@ const about: About = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
+        title: "Blender",
         description: (
-          <>Able to prototype in Figma with Once UI with unnatural speed.</>
+          <>Able to Model Items and UV map them.
+          </>
         ),
         tags: [
           {
-            name: "Figma",
+            name: "Blender",
             icon: "figma",
           },
         ],
@@ -198,9 +159,9 @@ const about: About = {
         ],
       },
       {
-        title: "Next.js",
+        title: "Adobe Substance Painter",
         description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
+          <>Able to Texture Models using Substance Painter</>
         ),
         tags: [
           {
