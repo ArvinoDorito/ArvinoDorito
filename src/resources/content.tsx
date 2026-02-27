@@ -101,14 +101,71 @@ const about: About = {
             Creating a Variety of Formal UGCs for The Knight's Wardrobe.
           </>,
           <>
-            ADD IMAGES
+            Using Blender and Substance Painter
+          </>,
+          <>
+            Modelling, UV Mapping and Texturing
           </>,
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
           {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
+            src: "public/images/gallery/Image-14.png",
+            alt: "BTD Project",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "public/images/gallery/Image-15.png",
+            alt: "BTD Project",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "public/images/gallery/Image-16.png",
+            alt: "BTD Project",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "public/images/gallery/Image-17.png",
+            alt: "BTD Project",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "public/images/gallery/Image-18.png",
+            alt: "BTD Project",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "public/images/gallery/Image-19.png",
+            alt: "BTD Project",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "public/images/gallery/Image-20.png",
+            alt: "BTD Project",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "public/images/gallery/Image-21.png",
+            alt: "BTD Project",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "public/images/gallery/Image-22.png",
+            alt: "BTD Project",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "public/images/gallery/Image-23.png",
+            alt: "BTD Project",
             width: 16,
             height: 9,
           },
@@ -145,14 +202,32 @@ const about: About = {
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
+            src: "public/images/gallery/Image-14.png",
+            alt: "BTD Project",
             width: 16,
             height: 9,
           },
           {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
+            src: "public/images/gallery/Image-15.png",
+            alt: "BTD Project",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "public/images/gallery/Image-16.png",
+            alt: "BTD Project",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "public/images/gallery/Image-17.png",
+            alt: "BTD Project",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "public/images/gallery/Image-18.png",
+            alt: "BTD Project",
             width: 16,
             height: 9,
           },
@@ -172,8 +247,38 @@ const about: About = {
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
+            src: "public/images/gallery/Image-19.png",
+            alt: "BTD Project",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "public/images/gallery/Image-20.png",
+            alt: "BTD Project",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "public/images/gallery/Image-21.png",
+            alt: "BTD Project",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "public/images/gallery/Image-21.png",
+            alt: "BTD Project",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "public/images/gallery/Image-22.png",
+            alt: "BTD Project",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "public/images/gallery/Image-23.png",
+            alt: "BTD Project",
             width: 16,
             height: 9,
           },
@@ -210,44 +315,55 @@ const gallery: Gallery = {
   // These are placeholder images, replace with your own
   images: [
     {
-      src: "/images/gallery/horizontal-1.jpg",
+      src: "public/images/gallery/Image-14.png",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/vertical-4.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/horizontal-3.jpg",
+      src: "public/images/gallery/Image-15.png",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/vertical-1.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/vertical-2.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/horizontal-2.jpg",
+      src: "public/images/gallery/Image-16.png",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/horizontal-4.jpg",
+      src: "public/images/gallery/Image-17.png",
+      alt: "image",
+      orientation: "vertical",
+    },
+    
+    {
+      src: "public/images/gallery/Image-18.png",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
+      src: "public/images/gallery/Image-19.png",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/vertical-3.jpg",
+      src: "public/images/gallery/Image-20.png",
       alt: "image",
-      orientation: "vertical",
+      orientation: "horizontal",
+    },
+    {
+      src: "public/images/gallery/Image-21.png",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "public/images/gallery/Image-22.png",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "public/images/gallery/Image-23.png",
+      alt: "image",
+      orientation: "horizontal",
     },
   ],
 };
