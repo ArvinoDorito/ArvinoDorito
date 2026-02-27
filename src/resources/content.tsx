@@ -120,7 +120,8 @@ const about: About = {
             alt: "BTD Project",
             width: 16,
             height: 9,
-          },{
+          },
+          {
             src: "public/images/gallery/Image-16.png",
             alt: "BTD Project",
             width: 16,
