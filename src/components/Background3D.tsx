@@ -15,7 +15,7 @@ function Model() {
   useEffect(() => {
     if (actions) {
       Object.values(actions).forEach((action) => {
-        if (!action) return; // ✅ skip null actions
+        if (!action) return;
         action.reset();
         action.play();
         action.setLoop(THREE.LoopRepeat, Infinity);
