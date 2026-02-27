@@ -2,6 +2,7 @@ import "@once-ui-system/core/css/styles.css";
 import "@once-ui-system/core/css/tokens.css";
 import "@/resources/custom.css";
 
+import Background3D from "@/components/Background3D";
 import classNames from "classnames";
 
 import {
@@ -41,7 +42,7 @@ export default async function RootLayout({
         fonts.heading.variable,
         fonts.body.variable,
         fonts.label.variable,
-        fonts.code.variable,
+        fonts.code.variable
       )}
     >
       <head>
@@ -53,7 +54,6 @@ export default async function RootLayout({
                 try {
                   const root = document.documentElement;
                   const defaultTheme = 'system';
-                  
                   const config = ${JSON.stringify({
                     brand: style.brand,
                     accent: style.accent,
@@ -98,6 +98,7 @@ export default async function RootLayout({
           }}
         />
       </head>
+
       <Providers>
         <Column
           as="body"
@@ -108,6 +109,10 @@ export default async function RootLayout({
           padding="0"
           horizontal="center"
         >
+          {/* Rotating 3D Background */}
+          <Background3D />
+
+          {/* Existing Once UI background effects */}
           <RevealFx fill position="absolute">
             <Background
               mask={{
@@ -150,6 +155,7 @@ export default async function RootLayout({
               }}
             />
           </RevealFx>
+
           <Flex fillWidth minHeight="16" s={{ hide: true }} />
           <Header />
           <Flex zIndex={0} fillWidth padding="l" horizontal="center" flex={1}>
