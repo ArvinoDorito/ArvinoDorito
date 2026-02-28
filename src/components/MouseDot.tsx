@@ -25,7 +25,7 @@ export default function MouseDot() {
         backgroundColor: "red",
         pointerEvents: "none",
         zIndex: 9999,
-        transition: "transform 0.02s linear",
+        transition: "top 0.02s linear, left 0.02s linear",
       }}
     />
   );
