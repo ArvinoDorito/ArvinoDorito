@@ -75,3 +75,6 @@ export const iconLibrary: Record<string, IconType> = {
 
 export type IconLibrary = typeof iconLibrary;
 export type IconName = keyof IconLibrary;
+
+
+// The icon library used is here: https://react-icons.github.io/react-icons/

@@ -26,8 +26,9 @@ export const Footer = () => {
           <Text paddingX="4">{person.name}</Text>
           <Text onBackground="neutral-weak">
             {/* Usage of this template requires attribution. Please don't remove the link to Once UI unless you have a Pro license. */}
-            / Build your portfolio with{" "}
+            / Built with Raw {" "}
             <SmartLink href="https://once-ui.com/products/magic-portfolio">Once UI</SmartLink>
+            / Gun Model is not mine, but was taken down so I cannot provide credit or a link{" "}
           </Text>
         </Text>
         <Row gap="16">

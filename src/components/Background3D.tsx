@@ -5,7 +5,6 @@ import { useGLTF, useAnimations } from "@react-three/drei";
 import { useRef, useEffect } from "react";
 import * as THREE from "three";
 
-// Define the type for GLTF result
 type GLTFResult = {
   scene: THREE.Object3D;
   animations: THREE.AnimationClip[];
@@ -17,7 +16,6 @@ function Model() {
 
   const { actions } = useAnimations(gltf.animations, ref);
 
-  // Play all animations once on mount
   useEffect(() => {
     if (actions) {
       Object.values(actions).forEach((action) => {
@@ -33,12 +31,10 @@ function Model() {
     if (ref.current) {
       const t = clock.elapsedTime;
 
-      // Smooth back-and-forth rotation
       ref.current.rotation.y = Math.sin(t / 5) * Math.PI;
       ref.current.rotation.x = Math.sin(t / 7) * 0.2;
       ref.current.rotation.z = Math.sin(t / 9) * 0.15;
 
-      // Tiny floating
       ref.current.position.y = Math.sin(t / 3) * 0.1;
       ref.current.position.x = Math.sin(t / 6) * 0.05;
     }
