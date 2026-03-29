@@ -28,15 +28,24 @@ import {
   SiFigma,
   SiSupabase,
   SiAdobe,
+  SiVercel,
+  SiRobloxstudio,
 } from "react-icons/si";
 
 import {
-  BiLogoBlender
+  BiLogoBlender,
 } from "react-icons/bi";
+
+import {
+  FaWordpress,
+} from "react-icons/fa6";
 
 import { FaDiscord, FaGithub, FaLinkedin, FaX, FaThreads, FaInstagram, FaXTwitter, FaFacebook, FaPinterest, FaWhatsapp, FaReddit, FaTelegram, } from "react-icons/fa6";
 
 export const iconLibrary: Record<string, IconType> = {
+  wordpress: FaWordpress,
+  vercel: SiVercel,
+  robloxstudio: SiRobloxstudio,
   blender: BiLogoBlender,
   adobe: SiAdobe,
   arrowUpRight: HiArrowUpRight,

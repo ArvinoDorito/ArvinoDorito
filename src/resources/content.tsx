@@ -94,7 +94,7 @@ const about: About = {
     experiences: [
       {
         company: "BTD",
-        timeframe: "Dec 2025 - Present",
+        timeframe: "Dec 2025 - March 2026",
         role: "UGC Merchant",
         achievements: [
           <>
@@ -106,65 +106,46 @@ const about: About = {
           <>
             Modelling, UV Mapping and Texturing
           </>,
+          <>
+          <a href="https://sketchfab.com/3d-models/mask-dark-starwars-jedi-temple-guard-02848813fc324322abda2d3a631f1138">
+            View/Buy in this game
+          </a>
+          </>,
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
           {
-            src: "/images/gallery/Image-14.png",
+            src: "/images/projects/Image-01.mp4",
             alt: "BTD Project",
             width: 16,
             height: 9,
           },
           {
-            src: "/images/gallery/Image-15.png",
+            src: "/images/projects/Image-02.mp4",
             alt: "BTD Project",
             width: 16,
             height: 9,
           },
-          {
-            src: "/images/gallery/Image-16.png",
+                    {
+            src: "/images/projects/Image-03.mp4",
             alt: "BTD Project",
             width: 16,
             height: 9,
           },
-          {
-            src: "/images/gallery/Image-17.png",
+                    {
+            src: "/images/projects/Image-04.mp4",
             alt: "BTD Project",
             width: 16,
             height: 9,
           },
-          {
-            src: "/images/gallery/Image-18.png",
+                    {
+            src: "/images/projects/Image-05.mp4",
             alt: "BTD Project",
             width: 16,
             height: 9,
           },
-          {
-            src: "/images/gallery/Image-19.png",
-            alt: "BTD Project",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/gallery/Image-20.png",
-            alt: "BTD Project",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/gallery/Image-21.png",
-            alt: "BTD Project",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/gallery/Image-22.png",
-            alt: "BTD Project",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/gallery/Image-23.png",
+                    {
+            src: "/images/projects/Image-06.mp4",
             alt: "BTD Project",
             width: 16,
             height: 9,
@@ -201,36 +182,7 @@ const about: About = {
         ],
         // optional: leave the array empty if you don't want to display images
         images: [
-          {
-            src: "/images/gallery/Image-14.png",
-            alt: "BTD Project",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/gallery/Image-15.png",
-            alt: "BTD Project",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/gallery/Image-16.png",
-            alt: "BTD Project",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/gallery/Image-17.png",
-            alt: "BTD Project",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/gallery/Image-18.png",
-            alt: "BTD Project",
-            width: 16,
-            height: 9,
-          },
+          
         ],
       },
       {
@@ -239,51 +191,51 @@ const about: About = {
           <>Able to Texture Models using Substance Painter</>
         ),
         tags: [
-          {
-            name: "Adobe",
-            icon: "adobe",
-          },
-        ],
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/gallery/Image-19.png",
-            alt: "BTD Project",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/gallery/Image-20.png",
-            alt: "BTD Project",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/gallery/Image-21.png",
-            alt: "BTD Project",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/gallery/Image-21.png",
-            alt: "BTD Project",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/gallery/Image-22.png",
-            alt: "BTD Project",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/gallery/Image-23.png",
-            alt: "BTD Project",
-            width: 16,
-            height: 9,
-          },
+          
         ],
       },
+      {
+        title: "Roblox Studio",
+        description: (
+          <>Its in the name.. <b>Roblox</b> modeller...</>
+        ),
+        tags: [
+          {
+            name: "Roblox Studio",
+            icon: "robloxstudio",
+          },
+        ],
+        
+      },
+      {
+        title: "Github and Vercel",
+        description: (
+          <>How do you think I made this website?</>
+        ),
+        tags: [
+          {
+            name: "Github",
+            icon: "github",
+          },
+          {
+            name: "Vercel",
+            icon: "vercel",
+          },
+
+        ],
+      },
+      {
+        title: "Wordpress",
+        description: (
+          <>Made hiap.co.uk using wordpress</>
+        ),
+        tags: [
+          {
+            name: "Wordpress",
+            icon: "wordpress",
+          }
+        ],
+      }
     ],
   },
 };
@@ -315,56 +267,57 @@ const gallery: Gallery = {
   // These are placeholder images, replace with your own
   images: [
     {
-      src: "/images/gallery/Image-14.png",
+      src: "/images/projects/project-03/DarkSaber.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/Image-15.png",
+      src: "/images/projects/project-04/Hood.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/Image-16.png",
+      src: "/images/projects/project-04/Mask.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/Image-17.png",
+      src: "/images/projects/project-04/Masksith.jpg",
       alt: "image",
-      orientation: "vertical",
+      orientation: "horizontal",
     },
+    {
+      src: "/images/projects/project-01/Image-01.png",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/projects/project-01/Image-02.png",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/projects/project-01/Image-03.png",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/projects/project-01/Image-04.png",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/projects/project-01/Image-05.png",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/projects/project-01/Image-06.png",
+      alt: "image",
+      orientation: "horizontal",
+    },
+
     
-    {
-      src: "/images/gallery/Image-18.png",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/Image-19.png",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/Image-20.png",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/Image-21.png",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/Image-22.png",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/Image-23.png",
-      alt: "image",
-      orientation: "horizontal",
-    },
   ],
 };
 
