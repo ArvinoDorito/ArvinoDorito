@@ -115,31 +115,31 @@ const about: About = {
         images: [
           // optional: leave the array empty if you don't want to display images
           {
-            src: "/images/projects/project-01/Image-01.mp4",
+            src: "/images/projects/project-01/Image-01.png",
             alt: "BTD Project",
             width: 16,
             height: 9,
           },
           {
-            src: "/images/projects/project-01/Image-02.mp4",
+            src: "/images/projects/project-01/Image-02.png",
             alt: "BTD Project",
             width: 16,
             height: 9,
           },
                     {
-            src: "/images/projects/project-01/Image-04.mp4",
+            src: "/images/projects/project-01/Image-04.png",
             alt: "BTD Project",
             width: 16,
             height: 9,
           },
                     {
-            src: "/images/projects/project-01/Image-05.mp4",
+            src: "/images/projects/project-01/Image-05.png",
             alt: "BTD Project",
             width: 16,
             height: 9,
           },
                     {
-            src: "/images/projects/project-01/Image-06.mp4",
+            src: "/images/projects/project-01/Image-06.png",
             alt: "BTD Project",
             width: 16,
             height: 9,
