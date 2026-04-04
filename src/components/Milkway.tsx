@@ -727,7 +727,7 @@ class WebGLErrorBoundary extends Component<{children:ReactNode},{failed:boolean}
 }
 
 // ── Root ──────────────────────────────────────────────────────────────────────
-export default function milkway() {
+export default function Milkway() {
   const [selectedId, setSelectedId] = useState<string|null>(null);
   const flyToRef = useRef<((pos: THREE.Vector3, tgt: THREE.Vector3) => void) | null>(null);
   const selected  = STRUCTURES.find(s => s.id === selectedId) ?? null;
