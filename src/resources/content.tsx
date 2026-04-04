@@ -1,4 +1,4 @@
-import { About, Blog, Gallery, Home, Person, Social, Work } from "@/types";
+import { About, Blog, Gallery, Home, Person, Social, Work, Galaxy } from "@/types";
 import { Line, Row, Text } from "@once-ui-system/core";
 
 const person: Person = {
@@ -315,4 +315,14 @@ const gallery: Gallery = {
   ],
 };
 
-export { person, social, home, about, blog, work, gallery };
+const galaxy: Galaxy = {
+  path: "/galaxy",
+  label: "Galaxy",
+  title: `Milky Way Galaxy Explorer – ${person.name}`,
+  description: ``,
+};
+
+
+
+
+export { person, social, home, about, blog, work, gallery, galaxy };

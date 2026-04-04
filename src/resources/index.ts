@@ -7,6 +7,7 @@ export {
   blog,
   work,
   gallery,
+  galaxy,
 } from "./content";
 
 export {
