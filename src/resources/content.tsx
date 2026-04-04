@@ -58,7 +58,7 @@ const home: Home = {
   },
   subline: (
     <>
-    I'm a Roblox <Text as="span" size="xl" weight="strong">UGC and Modeller</Text>.
+    I'm a Roblox <Text as="span" size="xl" weight="strong">UGC Creator and Modeller</Text>.
 </>
   ),
 };
