@@ -1,3 +1,5 @@
+"use client";
+
 import {
   Suspense, Component, type ReactNode,
   useRef, useMemo, useState, useContext, createContext, useCallback,
