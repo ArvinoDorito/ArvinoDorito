@@ -2,7 +2,6 @@ import "@once-ui-system/core/css/styles.css";
 import CustomCursor from "@/components/CustomCursor";
 import "@/resources/custom.css";
 import Link from "next/link";
-import { Row, Line, Text } from "@once-ui-system/core";
 
 <Link href="/milkyway">
   <Row gap="12" vertical="center">
