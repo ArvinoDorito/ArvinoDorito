@@ -2,10 +2,10 @@
 
 import dynamic from "next/dynamic";
 
-const Milkway = dynamic(() => import("@/components/Milkway"), {
+const milkway = dynamic(() => import("@/components/milkway"), {
   ssr: false,
 });
 
 export default function GalaxyPage() {
-  return <Milkway />;
+  return <milkway />;
 }
