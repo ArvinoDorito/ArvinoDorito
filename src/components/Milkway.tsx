@@ -332,10 +332,10 @@ function GalaxyStars({ count }: { count: number }) {
   return (
     <points ref={ref} material={STAR_MAT}>
       <bufferGeometry>
-        <bufferAttribute attach="attributes-position" args={[positions, 3]} />
-        <bufferAttribute attach="attributes-aColor"   args={[colors, 3]} />
-        <bufferAttribute attach="attributes-aSize"    args={[sizes, 1]} />
-        <bufferAttribute attach="attributes-aBright"  args={[brights, 1]} />
+        <bufferAttribute attach="attributes-position" array={positions} count={count} itemSize={3} />
+        <bufferAttribute attach="attributes-aColor"   array={colors}    count={count} itemSize={3} />
+        <bufferAttribute attach="attributes-aSize"    array={sizes}     count={count} itemSize={1} />
+        <bufferAttribute attach="attributes-aBright"  array={brights}   count={count} itemSize={1} />
       </bufferGeometry>
     </points>
   );
@@ -462,8 +462,8 @@ function BackgroundStars() {
   return (
     <points ref={ref}>
       <bufferGeometry>
-        <bufferAttribute attach="attributes-position" args={[pos, 3]} />
-        <bufferAttribute attach="attributes-color"    args={[col, 3]} />
+        <bufferAttribute attach="attributes-position" array={pos} count={pos.length/3} itemSize={3} />
+        <bufferAttribute attach="attributes-color"    array={col} count={col.length/3} itemSize={3} />
       </bufferGeometry>
       <pointsMaterial vertexColors size={0.2} sizeAttenuation transparent opacity={0.8} depthWrite={false} blending={THREE.AdditiveBlending} />
     </points>
