@@ -2,7 +2,7 @@
 
 import dynamic from "next/dynamic";
 
-const milkway = dynamic(() => import("@/components/milkway.tsx"), {
+const milkway = dynamic(() => import("@/components/milkway"), {
   ssr: false,
 });
 
