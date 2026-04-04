@@ -3,17 +3,7 @@ import CustomCursor from "@/components/CustomCursor";
 import "@/resources/custom.css";
 import Link from "next/link";
 import Background3D from "@/components/Background3D";
-import { Row, Line, Text } from "@once-ui-system/core";
 
-<Link href="/milkyway">
-  <Row gap="12" vertical="center">
-    <strong className="ml-4">MW</strong>
-    <Line background="brand-alpha-strong" vert height="20" />
-    <Text marginRight="4" onBackground="brand-medium">
-      Milky Way Explorer
-    </Text>
-  </Row>
-</Link>
 import classNames from "classnames";
 
 import {
